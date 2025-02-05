@@ -10,3 +10,40 @@
 body {
   font-family: "Work Sans", serif;
 }
+.display-flex {
+  display: flex;
+}
+.text-gray {
+  color: #424242;
+}
+.text-light-gray {
+  color: #727272;
+}
+.bg-light {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* 
+* HeaderStyle
+*/
+.navbar,
+.banner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* 
+* NavbarStyle
+*/
+.navbar {
+  justify-content: space-between;
+}
+.nav-item {
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-link {
+  text-decoration: none;
+  font-weight: 500;
+  color: ;
+}
